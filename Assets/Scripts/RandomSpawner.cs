@@ -13,6 +13,7 @@ public class RandomSpawner : MonoBehaviour
         {
             x++;
             float rng = Random.Range(1, 6);
+
             Vector2 randomSpawnPosition = new Vector2(Random.Range(-3, 4), 6);
 
             if (rng == 1)
